@@ -195,9 +195,8 @@ people.sort(comparing(Person::getLastName));;
 此外，如果我们为Comparator接口增加一个默认方法reversed()（产生一个逆序比较器），我们就可以非常容易的在前面代码的基础上实现降序排序。
 
 ```
-people.sort(comparing(Person::getLastName).reversed());;
+people.sort(comparing(Person::getLastName).reversed());
 ```
-
 
 ## 名称解释
 - Race Condition中文翻译是竞争条件，是指多个进程或者线程并发访问和操作同一数据且执行结果与访问发生的特定顺序有关的现象。换句话说，就是线程或进程之间访问数据的先后顺序决定了数据修改的结果，这种现象在多线程编程中是经常见到的)
