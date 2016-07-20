@@ -3,6 +3,29 @@ date: 2016-06-21 14:31:27
 tags:
 ---
 
+### 设置侧边栏头像
+编辑站点的 _config.yml，新增字段 avatar， 值设置成头像的链接地址。    
+其中，头像的链接地址可以是：
+
+1. 完整的互联网 URL，例如：https://avatars1.githubusercontent.com/u/32269?v=3&s=460
+2. 站点内的地址，例如：    
+ - /uploads/avatar.jpg 需要将你的头像图片放置在 站点的 source/uploads/（可能需要新建uploads目录）
+ - /images/avatar.jpg 需要将你的头像图片放置在 主题的 source/images/ 目录下。
+
+###  设置侧边栏社交链接
+编辑站点的 _config.yml，新增字段 social，然后添加社交站点名称与地址即可。例如：
+
+```
+# Social links
+social:
+  github: https://github.com/your-user-name
+  twitter: https://twitter.com/your-user-name
+  weibo: http://weibo.com/your-user-name
+  douban: http://douban.com/people/your-user-name
+  zhihu: http://www.zhihu.com/people/your-user-name
+  # 等等
+```
+
 ### 多说配置
 使用多说前需要先在 多说 创建一个站点。具体步骤如下：
 
@@ -22,3 +45,5 @@ tags:
 - http://michaelxiang.me/    
 - http://michaelxiang.me/2015/11/30/hexo-next-optimize/
 - https://github.com/iissnan/hexo-theme-next/wiki/%E8%AE%BE%E7%BD%AE%E5%A4%9A%E8%AF%B4-DISQUS
+- [动动手指，给你的Hexo站点添加最近访客（多说篇）](http://www.arao.me/2015/hexo-next-theme-optimize-duoshuo/)
+- [主题配置](http://theme-next.iissnan.com/theme-settings.html)

@@ -20,5 +20,15 @@ dexOptions {
     }
 ```
 时间：2016/05/24
-- 
+- 4 升级 support 22
+报错：java.lang.IllegalArgumentException: AppCompat does not support the current theme features
+解决：
+1、 values-v21,等等 values styles.xml 
+改成 parent="Theme.AppCompat.NoActionBar"
+因为 没有改全 甚至开始怀疑是不是 as又没有编译，严重怀疑人生，汗
+2、 
+`super.onCreate(savedInstanceState);
+setContentView(R.layout.activity_main);`
+放在代码最上面
+
 

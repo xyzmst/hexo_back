@@ -195,3 +195,4 @@ cm.setCookie(url, cookie);
 ### 参考链接
 - [深入讲解webview](http://www.kymjs.com/code/2015/05/03/01)
 - [深入讲解WebView——下](http://kymjs.com/code/2015/05/04/01/)
+- [史上最全WebView使用，附送Html5Activity一份](http://www.jianshu.com/p/3fcf8ba18d7f)
