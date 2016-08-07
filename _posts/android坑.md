@@ -30,5 +30,9 @@ dexOptions {
 `super.onCreate(savedInstanceState);
 setContentView(R.layout.activity_main);`
 放在代码最上面
+- 5 java.lang.IllegalStateException: Fragment already active
+修改 java.lang.IllegalStateException: Fragment already active
+Fragment被隐藏后，不能在使用setArguments()传递
+可以使用setter和getter Fragment的属性方法进行数据的存储和获取
 
 
